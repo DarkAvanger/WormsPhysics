@@ -1,5 +1,6 @@
 // Changing any physics value while playing will cause the game to break, any physics values should be changed before compiling
-
+// Just saw you uploaded 2D physics Example which I could have implemented in my code if I had seen that sooner, 
+//anyway I added some features that can be found in the readme such as playing against the IA or between friends, up to 4 at the same time
 
 #include <iostream>
 #include <string>
