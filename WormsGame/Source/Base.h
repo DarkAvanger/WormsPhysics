@@ -806,7 +806,7 @@ private:
 					m_bAtomActive = false;
 
 				wchar_t s[256];
-				swprintf_s(s, 256, L" %s - FPS: 60", m_sAppName.c_str(), 1.0f / fElapsedTime); 
+				swprintf_s(s, 256, L" %s - FPS: 60", m_sAppName.c_str(), 1.0f / fElapsedTime); //Fixing the game to 60 FPS will cause the map to not render as expected therefore making the game unplayable
 				SetConsoleTitle(s);
 				WriteConsoleOutput(m_hConsole, m_bufScreen, { (short)m_nScreenWidth, (short)m_nScreenHeight }, { 0,0 }, &m_rectWindow);
 			}

@@ -1,3 +1,6 @@
+// Changing any physics value while playing will cause the game to break, any physics values should be changed before compiling
+
+
 #include <iostream>
 #include <string>
 #include <algorithm>
